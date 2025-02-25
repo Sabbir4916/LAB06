@@ -66,7 +66,7 @@ class MyApp extends StatelessWidget {
                 },
               ),
               ListTile(
-                leading: Icon(Icons.info, color: Colors.orange),
+                leading: Icon(Icons.info, color: const Color.fromARGB(255, 44, 44, 43)),
                 title: Text('About'),
                 onTap: () {
                   Navigator.pop(context); // Close the drawer
