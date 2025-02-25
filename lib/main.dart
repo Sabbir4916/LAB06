@@ -89,7 +89,7 @@ class _ProductPageState extends State<ProductPage> {
                     decoration: BoxDecoration(
                       color: selectedSize == size
                           ? Colors.orangeAccent
-                          : const Color.fromARGB(255, 222, 206, 206),
+                          : const Color.fromARGB(255, 236, 216, 216),
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Text(
